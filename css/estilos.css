@@ -273,7 +273,7 @@ PRODUCT SECTION
     width: 100%;
 }
 
-.card-producto div{
+.card-producto div {
     padding: 32px;
 }
 
@@ -281,9 +281,9 @@ PRODUCT SECTION
 
     object-fit: cover;
     border-radius: 24px 24px 0px 0px;
-    width: auto; 
+    width: auto;
     height: 364px;
-    max-width: 100%; 
+    max-width: 100%;
 
 }
 
@@ -301,7 +301,7 @@ PRODUCT SECTION
     object-fit: fill;
 }
 
-.card-producto3 div{
+.card-producto3 div {
     padding: 24px;
 }
 
@@ -310,9 +310,9 @@ PRODUCT SECTION
 
     object-fit: cover;
     border-radius: 0px 24px 24px 0px;
-    width: 50%; 
+    width: 50%;
     height: 100%;
-    max-width: 100%; 
+    max-width: 100%;
 
 }
 
@@ -480,7 +480,7 @@ CONTACTO SECTION
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+
 }
 
 .formulario {
@@ -509,10 +509,10 @@ CONTACTO SECTION
 }
 
 .formulario .Button-primary {
-   width: 100%;
+    width: 100%;
 }
 
-.formulario .input{
+.formulario .input {
     border-style: solid;
     border-width: 1px;
     gap: 24px;
@@ -525,7 +525,7 @@ CONTACTO SECTION
     width: 100%;
 }
 
-.formulario .input{
+.formulario .input {
     color: #fff;
 }
 
@@ -722,10 +722,10 @@ PRÉSTAMOS SECTION
     gap: 24px;
 }
 
-.productos-seccion-prestamos .Button-secondary{
+.productos-seccion-prestamos .Button-secondary {
     width: 70%;
 }
-   
+
 
 .productos-seccion-prestamos p {
     width: 70%;
@@ -798,9 +798,9 @@ flex-wrap: wrap
 }
 
 .productos-seccion-beneficios .text img {
-   padding: 8px;
-   width: 100%;
-   height: 100%;
+    padding: 8px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -1117,7 +1117,7 @@ flex-wrap: wrap
         width: 100%;
     }
 
-        
+
     .home-seccion-productos {
         display: flex;
         gap: 48px 24px 24px 24px;
@@ -1129,11 +1129,11 @@ flex-wrap: wrap
         padding: 16px;
     }
 
-    .card-producto3 div{
+    .card-producto3 div {
         padding: 16px;
     }
 
-    .card-producto3 img{
+    .card-producto3 img {
         border-radius: 0px 0px 24px 24px;
         width: 100%;
     }
@@ -1171,8 +1171,8 @@ flex-wrap: wrap
         margin: 56px;
         border-radius: 24px;
     }
-    
-    
+
+
 
 
 }
