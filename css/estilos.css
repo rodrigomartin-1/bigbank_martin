@@ -505,6 +505,7 @@ CONTACTO SECTION
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
 }
 
 .formulario .Button-primary {
@@ -524,8 +525,13 @@ CONTACTO SECTION
     width: 100%;
 }
 
+.formulario .input{
+    color: #fff;
+}
+
 .formulario select option {
     color: #fff;
+    width: 50% !important;
 }
 
 
