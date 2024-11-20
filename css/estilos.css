@@ -28,20 +28,20 @@ header nav ul li a {
     color: #FFF;
 }
 
-.navbar-nav .nav-link.active {   
-     color: #fff;
-     font-weight: 1000;
-    }
+.navbar-nav .nav-link.active {
+    color: #fff;
+    font-weight: 1000;
+}
 
-.navbar-nav .nav-link{   
-  color: #fff;
+.navbar-nav .nav-link {
+    color: #fff;
     font-weight: 300;
-   }
+}
 
-.navbar-nav .nav-link:hover{   
+.navbar-nav .nav-link:hover {
     color: #FF86FD;
-      font-weight: 300;
-     }
+    font-weight: 300;
+}
 
 
 .navbar {
@@ -54,7 +54,7 @@ Nav .navbar-brand {
 }
 
 .navbar-toggler-icon {
-    filter:invert(1);
+    filter: invert(1);
 }
 
 /*---------box modeling
@@ -72,7 +72,7 @@ header nav ul li {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 8px;
-    padding-bottom: 8px;    
+    padding-bottom: 8px;
 }
 
 
@@ -105,8 +105,8 @@ h3 {
 
 p {
     color: #B9B9B9;
-
 }
+
 
 .Button-primary {
     display: flex;
@@ -170,7 +170,7 @@ p {
     border-width: 1px;
 }
 
-.Button-secondary:hover{
+.Button-secondary:hover {
     display: flex;
     justify-content: center;
     background-color: #ffffff3b;
@@ -199,7 +199,7 @@ p {
 .hero-left {
     display: flex;
     justify-content: space-between;
-
+    gap: 24px;
     width: 100%;
     padding: 32px;
 }
@@ -260,48 +260,34 @@ PRODUCT SECTION
     padding: 24px;
 }
 
-.card-producto1 {
+.card-producto {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    gap: 16px;
-    padding: 24px;
-    border-color: #606060;
-    border-style: solid;
-    border-width: 1px;
-    background-color: #011231;
-    border-radius: 24px;
-    padding: 24px;
-    width: 100%;
-}
 
-.card-producto1 img {
-
-    object-fit: cover;
-    width: 100%;
-}
-
-.card-producto2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
     gap: 16px;
     border-color: #606060;
     border-style: solid;
     border-width: 1px;
     background-color: #011231;
     border-radius: 24px;
-    padding: 24px;
     width: 100%;
 }
 
-.card-producto2 img {
+.card-producto div{
+    padding: 32px;
+}
+
+.card-producto img {
 
     object-fit: cover;
-    width: 100%;
+    border-radius: 24px 24px 0px 0px;
+    width: auto; 
+    height: 364px;
+    max-width: 100%; 
+
 }
 
-.card-producto3{
+.card-producto3 {
     display: flex;
     justify-content: space-between;
     gap: 16px;
@@ -310,21 +296,28 @@ PRODUCT SECTION
     border-width: 1px;
     background-color: #011231;
     border-radius: 24px;
-    padding: 24px;
     grid-column: 1 / 3;
     width: 100%;
     object-fit: fill;
 }
 
-.card-producto3 text{
-    flex-wrap: wrap;
+.card-producto3 div{
+    padding: 24px;
 }
+
 
 .card-producto3 img {
-    object-fit:fill;
+
+    object-fit: cover;
+    border-radius: 0px 24px 24px 0px;
+    width: 50%; 
+    height: 100%;
+    max-width: 100%; 
+
 }
 
-.card-producto3 .text{
+
+.card-producto3 .text {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -341,15 +334,15 @@ INVERSIONES SECTION
 .home-seccion-inversiones {
     background-image: url("../images/home-inversiones.png");
     background-size: cover;
-    background-position:100%;
+    background-position: 100%;
     height: 700px;
-    background-attachment:scroll;
+    background-attachment: scroll;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    object-fit:scale-down;
+    object-fit: scale-down;
 
 }
 
@@ -359,14 +352,14 @@ INVERSIONES SECTION
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    object-fit:scale-down;
+    object-fit: scale-down;
     padding: 24px;
 
 }
 
 .home-seccion-inversiones-mobile img {
-   object-fit: fill ;
-   width: 100%;
+    object-fit: fill;
+    width: 100%;
 }
 
 .home-seccion-inversiones .text {
@@ -386,7 +379,7 @@ EQUIPO SECTION
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 48px;
+    margin: 24px;
     gap: 16px;
     flex-wrap: wrap;
 }
@@ -405,8 +398,8 @@ EQUIPO SECTION
     gap: 32px;
     padding: 24px;
     width: 100%;
-
 }
+
 
 .card-equipo {
     display: flex;
@@ -476,6 +469,7 @@ CONTACTO SECTION
     flex-direction: column;
     align-items: center;
     padding: 24px;
+    gap: 24px;
 }
 
 .seccion-contacto h2 {
@@ -483,23 +477,59 @@ CONTACTO SECTION
 }
 
 .seccion-contacto p {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    
 }
 
 .formulario {
     border-style: solid;
     border-width: 1px;
+    gap: 24px;
     border-color: #3592DA;
     border-radius: 24px;
-    width: 100%;
+    width: 70%;
     padding: 24px;
     background-color: #011231;
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
 }
+
+.formulario .textfield {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formulario .Button-primary {
+   width: 100%;
+}
+
+.formulario .input{
+    border-style: solid;
+    border-width: 1px;
+    gap: 24px;
+    border-color: #3592DA;
+    border-radius: 4px;
+    background-color: #011231;
+    width: auto;
+    min-height: 44px;
+    padding: 16px;
+    width: 100%;
+}
+
+.formulario select option {
+    color: #fff;
+}
+
+
+
 
 /*---------FOOTER
 ----------------------------------------------------------------*/
@@ -528,8 +558,14 @@ CONTACTO SECTION
 
 .footer img {
     margin: -24px;
-    object-fit:scale-down;
+    object-fit: scale-down;
     width: 50%;
+}
+
+.footer .icon {
+    object-fit: fill;
+    width: 50%;
+    text-align: center;
 }
 
 
@@ -575,10 +611,11 @@ TARJETAS SECTION
 .productos {
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items: start;
     justify-content: left;
     padding: 48px;
-    gap: 24px ;
+    gap: 24px;
+    margin-top: 56px;
 }
 
 .productos-seccion-tarjetas {
@@ -619,18 +656,21 @@ TARJETAS SECTION
     background-color: #011231;
     border-radius: 24px;
     padding: 24px;
+    height: 400px;
+
 }
 
 .card-tarjeta div {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 60%;
 }
 
 .card-tarjeta img {
-    width: 50%;
-    height: 50%;
-    object-fit: scale-down;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card-tarjeta h3 {
@@ -649,7 +689,8 @@ TARJETAS SECTION
 
 .card-tarjeta-horizontal img {
     width: 100%;
-    height: 100%;    
+    height: auto;
+    object-fit: cover;
 }
 
 .card-tarjeta-horizontal div {
@@ -672,15 +713,22 @@ PRÉSTAMOS SECTION
     justify-content: center;
     padding: 24px;
     text-align: center;
+    gap: 24px;
 }
 
+.productos-seccion-prestamos .Button-secondary{
+    width: 70%;
+}
+   
+
 .productos-seccion-prestamos p {
-  width: 70%;
+    width: 70%;
 }
 
 .productos-seccion-prestamos img {
-    width: 70%;
-    height: 70%;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 .productos-seccion-prestamos .beneficios-prestamos {
@@ -707,14 +755,10 @@ PRÉSTAMOS SECTION
 
 .hero-aboutus .text {
     width: 70%;
+    background-color: linear-gradient(to top, #000 100%, #dd0202 100%);
 }
 
-.formulario {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
+
 
 /*---flexbox---
 flex-direction: column;
@@ -728,37 +772,63 @@ flex-wrap: wrap
 
 .productos-seccion-beneficios {
     display: flex;
-    margin: 48px;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 48px;
+    background-color: #000;
+    margin: 56px;
+    border-radius: 24px;
 }
+
+.productos-seccion-beneficios {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    gap: 48px;
+    background-color: #000;
+    margin: 56px;
+    border-radius: 24px;
+}
+
+.productos-seccion-beneficios .text img {
+   padding: 8px;
+   width: 100%;
+   height: 100%;
+}
+
+
 
 .productos-seccion-beneficios .callout {
     display: flex;
-    flex-direction: column;
+    gap: 32px;
 }
 
 
 /*---------INVERSIONES
 ----------------------------------------------------------------*/
 
-.inversiones-seccion{
+.inversiones-seccion {
     display: flex;
     background-color: #000;
     padding: 24px;
     gap: 56px;
-    margin: 48px, 0, 0, 48px;
-    
+    margin: 88px, 0, 0, 48px;
+    padding: 88px;
+
 }
 
 .inversiones-modulo-contenido {
     display: flex;
     flex-direction: column;
     gap: 32px;
+
 }
 
-.inversiones-seccion img{
-    object-fit: fill;
-    width: 50%;
-    height: 50%;
+.inversiones-seccion img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 .inversiones-seccion .Button-primary {
@@ -809,12 +879,17 @@ flex-wrap: wrap
         color: #ffffff;
         letter-spacing: -3%;
     }
-    
+
     h3 {
         font-size: 20px;
         font-weight: 800;
         color: #ffffff;
         letter-spacing: -3%;
+    }
+
+    .hero-centered {
+        padding: 16px;
+        width: 100%;
     }
 
     .hero-left {
@@ -823,6 +898,8 @@ flex-wrap: wrap
         align-items: center;
         justify-content: center;
         width: 100%;
+        padding: 16px;
+        margin-bottom: 44px;
     }
 
     .hero-left img {
@@ -838,39 +915,46 @@ flex-wrap: wrap
         width: 100%;
         text-align: center;
     }
-    
+
     .hero-left .contenido .text {
         display: flex;
         flex-direction: column;
         justify-items: flex-start;
         gap: 8px;
-    
+
     }
-    
+
     .hero-left .action {
         display: flex;
         width: 100%;
     }
 
-    .hero-centered div{
+    .hero-centered div {
         width: 100%;
     }
 
 
-    .home-seccion-productos{
-width: 100%;
+    .home-seccion-productos {
+        width: 100%;
     }
 
     .cards-de-productos {
         display: flex;
         flex-direction: column;
         gap: 24px;
+        height: auto;
         width: 100%;
-        object-fit: scale-down;
-        padding: 24px 0px 24px 0px;
+        object-fit: cover;
+        padding: 24px 0px 16px 0px;
     }
 
-    .card-producto3{
+    .cards-de-productos img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card-producto3 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -880,12 +964,11 @@ width: 100%;
         border-width: 1px;
         background-color: #011231;
         border-radius: 24px;
-        padding: 24px;
         width: 100%;
         object-fit: fill;
     }
 
-    .card-producto3 .text{
+    .card-producto3 .text {
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -895,47 +978,49 @@ width: 100%;
     .home-seccion-inversiones {
         background-image: url("../images/home-inversiones.png");
         overlay: #000;
-        background-size:cover;
-        background-position:80%;
+        background-size: cover;
+        background-position: 80%;
         height: 100%;
-        background-attachment:local;
+        background-attachment: local;
         display: flex;
         justify-content: end;
         align-items: start;
         flex-wrap: wrap;
         width: 1fr;
-        object-fit:cover;
+        object-fit: cover;
     }
-    
+
     .home-seccion-inversiones .text {
         width: 100%;
         flex-direction: column;
-        justify-content:right;
+        justify-content: right;
         align-content: end;
         padding: 24px;
         gap: 24px;
     }
+
     .modulo-equipo {
         display: grid;
         grid-template-columns: auto;
         grid-auto-rows: auto;
         gap: 32px;
         padding: 24px;
-    } 
+    }
+
 
     .home-seccion-inversiones {
         background-image: url("../images/home-inversiones.png");
         overlay: #000;
-        background-size:cover;
-        background-position:80%;
+        background-size: cover;
+        background-position: 80%;
         height: 100%;
-        background-attachment:local;
+        background-attachment: local;
         display: flex;
         justify-content: end;
         align-items: start;
         flex-wrap: wrap;
         width: 1fr;
-        object-fit:cover;
+        object-fit: cover;
         display: none;
     }
 
@@ -945,9 +1030,20 @@ width: 100%;
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        object-fit:scale-down;
         padding: 24px;
         gap: 24px;
+    }
+
+    .home-seccion-inversiones-mobile .text {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .home-seccion-inversiones-mobile {
+        object-fit: contain;
+        width: auto;
+        height: 100%;
     }
 
     .inversiones-seccion {
@@ -958,7 +1054,7 @@ width: 100%;
         padding: 24px;
         gap: 32px;
         margin: 48px, 0, 0, 48px;
-        
+
     }
 
     .inversiones-seccion-ventajas {
@@ -974,7 +1070,7 @@ width: 100%;
         align-items: center;
         justify-content: space-between;
         object-fit: scale-down;
-        
+
     }
 
     .productos-seccion-tarjetas {
@@ -990,42 +1086,98 @@ width: 100%;
     }
 
     .card-tarjeta-horizontal {
-    flex-wrap: wrap;
-    width: 100%;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
-
+    .cards-de-tarjetas {
+        display: flex;
+        flex-direction: column;
+    }
 
 
     .card-tarjeta {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-        
-    }
-
-    .card-tarjeta img {
-    
-        width: 100%;
         height: 100%;
-        
+        width: 100%;
     }
 
-    .productos-seccion-prestamos p {
+    .card-tarjeta div {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
         width: 100%;
-      }
-      
+    }
+
+        
+    .home-seccion-productos {
+        display: flex;
+        gap: 48px 24px 24px 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 16px;
+    }
+
+    .card-producto3 div{
+        padding: 16px;
+    }
+
+    .card-producto3 img{
+        border-radius: 0px 0px 24px 24px;
+        width: 100%;
+    }
+
+    .formulario {
+        border-style: solid;
+        border-width: 1px;
+        gap: 24px;
+        border-color: #3592DA;
+        border-radius: 24px;
+        width: 100%;
+        padding: 24px;
+        background-color: #011231;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productos-seccion-beneficios .callout {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .productos-seccion-beneficios {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        gap: 48px;
+        background-color: #000;
+        margin: 56px;
+        border-radius: 24px;
+    }
+    
+    
+
 
 }
 
 @media screen and (max-width: 450px) {
 
-.cards-de-tarjetas {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-    gap: 24px;
-}
+    .cards-de-tarjetas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        gap: 24px;
+    }
 }
