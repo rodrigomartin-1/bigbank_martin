@@ -107,5 +107,15 @@ $color-text-secondary: #D6D6D6;
         width: 50% !important;
     }
 
+//Lista
 
 $font-size: 56px, 44px, 32px, 16px; 
+
+//Mixin
+
+@mixin typeface ($font-size, $font-weight, $color, $letter-spacing){
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+    letter-spacing: $letter-spacing;
+}

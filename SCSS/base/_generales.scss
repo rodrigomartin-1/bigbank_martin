@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-body {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-}
 
 // HEADER
 
@@ -125,29 +121,19 @@ header {
 
 
 h1 {
-  color: $color-text-primary;
-  font-weight: 900;
-  font-size: nth($font-size, 1);
-  letter-spacing: -3%;
+@include typeface (56px, 900, $color-text-primary, -3%)
 }
 
 h2 {
-  font-size: nth($font-size, 2);
-  font-weight: 800;
-  color: $color-text-primary;
-  letter-spacing: -3%;
+  @include typeface (44px, 800, $color-text-primary, -3%)
 }
 
 h3 {
-  font-size: nth($font-size, 3);
-  font-weight: 800;
-  color: $color-text-primary;
-  letter-spacing: -3%;
+  @include typeface (32px, 800, $color-text-primary, -0%)
 }
 
 p {
-  font-size: nth($font-size, 4);
-  color: $color-text-secondary;
+  @include typeface (16px, 500, $color-text-secondary, 0%);
 }
 
 body {
