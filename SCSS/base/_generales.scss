@@ -133,7 +133,7 @@ h3 {
 }
 
 p {
-  @include typeface (16px, 500, $color-text-secondary, 0%);
+  @include typeface (16px, 400, $color-text-secondary, 0%);
 }
 
 body {

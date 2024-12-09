@@ -204,7 +204,7 @@ h3 {
 
 p {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #D6D6D6;
   letter-spacing: 0%;
 }
@@ -310,6 +310,9 @@ main .home-seccion-productos {
   flex-wrap: wrap;
   width: 100%;
   padding: 32px;
+}
+main .home-seccion-productos h2 {
+  text-align: center;
 }
 main .home-seccion-productos .cards-de-productos {
   display: grid;
