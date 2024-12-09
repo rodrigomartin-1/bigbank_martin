@@ -1,0 +1,44 @@
+main {
+    section {
+        .hero-centered-aboutus {
+            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), 
+                url(../images/img-aboutus.png);
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            align-items: center;
+            background-attachment: fixed;
+            height: 100vh;
+            width: 100%;
+
+            .text {
+                width: 70%;
+                padding: 24px;
+
+
+            }
+        }
+    }.seccion-carreer {
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 32px;
+            gap: 24px;
+        }
+
+        h2 {
+            text-align: center;
+            width: 50%;
+        }
+        p {
+            text-align: center;
+            width: 70%;
+        }
+    }
+
+}

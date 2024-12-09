@@ -1,0 +1,108 @@
+// VARIABLES
+
+//Color
+
+$color-accent: #FF86FD;
+$color-accent-hover: #FFC3FE;
+$color-foreground: #011231;
+$color-background: #010919;
+$color-divider: #606060;
+$color-black: black;
+$color-text-on-accent: #333333;
+$color-text-primary: #F5F5F5;
+$color-text-secondary: #D6D6D6;
+
+//extends--botones
+
+%button-primary {
+    display: flex;
+    justify-content: center;
+    background-color: $color-accent;
+    color: $color-text-on-accent;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 24px, 24px, 24px, 24px;
+    border-radius: 45px;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+    width: 100%;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+
+%button-secondary {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 24px, 24px, 24px, 24px;
+    border-radius: 45px;
+    text-decoration: none;
+    width: 100%;
+    border-style: solid;
+    border-color: #3592DA;
+    border-width: 1px;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+
+%formulario {
+    border-style: solid;
+    border-width: 1px;
+    gap: 24px;
+    border-color: #3592DA;
+    border-radius: 24px;
+    width: 70%;
+    padding: 24px;
+    background-color: #011231;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    }
+
+    %textfield {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    %input {
+        border-style: solid;
+        border-width: 1px;
+        gap: 24px;
+        border-color: #3592DA;
+        border-radius: 4px;
+        background-color: #011231;
+        width: auto;
+        min-height: 44px;
+        padding: 16px;
+        width: 100%;
+        color: #fff;
+
+    }
+
+    %select {
+        color: #fff;
+        width: 50% !important;
+
+    }
+
+    %option {
+        color: #fff;
+        width: 50% !important;
+    }

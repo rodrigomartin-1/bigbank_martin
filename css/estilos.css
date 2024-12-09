@@ -722,7 +722,7 @@ PRÉSTAMOS SECTION
     gap: 24px;
 }
 
-.productos-seccion-prestamos .Button-secondary {
+.productos-seccion-prestamos .button-secondary {
     width: 70%;
 }
 
@@ -983,7 +983,6 @@ flex-wrap: wrap
 
     .home-seccion-inversiones {
         background-image: url("../images/home-inversiones.png");
-        overlay: #000;
         background-size: cover;
         background-position: 80%;
         height: 100%;
@@ -1016,7 +1015,6 @@ flex-wrap: wrap
 
     .home-seccion-inversiones {
         background-image: url("../images/home-inversiones.png");
-        overlay: #000;
         background-size: cover;
         background-position: 80%;
         height: 100%;
@@ -1113,7 +1111,8 @@ flex-wrap: wrap
     .card-tarjeta div {
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        justify-content: center;
+        height: 100%;
         width: 100%;
     }
 

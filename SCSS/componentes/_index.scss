@@ -1,0 +1,206 @@
+   main {
+        section {
+            .hero-left {
+                display: flex;
+                justify-content: space-between;
+                gap: 24px;
+                width: 100%;
+                padding: 32px;
+
+                .contenido {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 48px;
+                    width: 50%;
+
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-items: center;
+                        align-items: center;
+                        gap: 8px;
+
+                        span {
+                            color: $color-accent;
+                        }
+                    }
+
+                    .action {
+                        display: flex;
+                    }
+                }
+
+                img {
+                    object-fit: scale-down;
+                }
+            }
+        }
+
+        .home-seccion-productos {
+            display: flex;
+            gap: 48px 24px 24px 24px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 32px;
+
+            .cards-de-productos {
+                display: grid;
+                gap: 24px;
+                grid-template-columns: auto;
+                grid-template-rows: auto;
+                width: 100%;
+                object-fit: scale-down;
+                padding: 24px;
+
+                .card-producto {
+                    display: flex;
+                    flex-direction: column;
+
+                    gap: 16px;
+                    border-color: #606060;
+                    border-style: solid;
+                    border-width: 1px;
+                    background-color: #011231;
+                    border-radius: 24px;
+                    width: 100%;
+
+                    div {
+                        padding: 32px
+                    }
+
+                    img {
+                        object-fit: cover;
+                        border-radius: 24px 24px 0px 0px;
+                        width: auto;
+                        height: 364px;
+                        max-width: 100%;
+                    }
+                }
+
+                .card-producto3 {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 16px;
+                    border-color: #606060;
+                    border-style: solid;
+                    border-width: 1px;
+                    background-color: #011231;
+                    border-radius: 24px;
+                    grid-column: 1 / 3;
+                    width: 100%;
+                    object-fit: fill;
+
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        width: 50%;
+                    }
+
+                    div {
+                        padding: 24px;
+                    }
+
+                    img {
+                        object-fit: cover;
+                        border-radius: 0px 24px 24px 0px;
+                        width: 50%;
+                        height: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .home-seccion-inversiones {
+        background-image: url("../images/home-inversiones.png");
+        background-size: cover;
+        background-position: 100%;
+        height: 700px;
+        background-attachment: scroll;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        object-fit: scale-down;
+
+        .text {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            justify-content: end;
+            padding: 24px;
+            gap: 24px;
+        }
+    }
+
+    .home-seccion-inversiones-mobile {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        object-fit: scale-down;
+        padding: 24px;
+
+        img {
+            object-fit: fill;
+            width: 100%;
+        }
+
+    }
+
+    .home-seccion-equipo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 24px;
+        gap: 16px;
+        flex-wrap: wrap;
+
+        .text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .modulo-equipo {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: auto;
+            gap: 32px;
+            padding: 24px;
+            width: 100%;
+
+            .card-equipo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 24px;
+                border-color: #606060;
+                border-style: solid;
+                border-width: 1px;
+                background-color: #011231;
+                border-radius: 24px;
+                padding: 24px;
+                height: 100%;
+                width: 100%;
+
+                .media-equipo {
+                    width: 160px;
+                    height: 160px;
+                }
+
+            }
+        }
+    }
+
